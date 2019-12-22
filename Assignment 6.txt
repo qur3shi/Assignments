@@ -1,0 +1,39 @@
+Define Object Oriented Programming Language?
+A computer programming language which deals with objects which contain data.
+
+List down the Benefits of OOP?
+Objects are reusable and therefore less effort of time and energy.  Inheritance a property used for deriving classes from others. Objects can be reused across different applications.
+The OOP is very modular i.e. each module can have its own functionality.  So not confusing or complicating solutions in one go or module. 
+Flexibility via Polymorphism i.e. the ability to process objects differently depending on their data type or class.
+It helps to solve complex problems by breaking them up in pieces and solving them individually.
+
+Differentiate between function and method?
+A function is a procedure which takes some input and returns some output value.
+A method is like a function, but a method is implicit in its use by an object.  A method is accessible data contained in a class.
+
+Define the following terms: 
+1. Class: A class is a blueprint of an object.  It defines the behavior of an object and what it will have.
+2. Object: It is a self-contained component which has methods and properties.  These are used to make the data useful.
+3. Attribute: an attribute is a specification that defines a property of an object. It may also refer to or set the specific value for a given instance of such.
+4. Behavior:  An objects behavior is defined by its methods and properties.
+
+Write a code in python in which create a class named it Car which have 5 attributes such like (model, color and name etc.) and 3 methods. And create 5 object instance from that class
+def __init__(self, model, color, name, make, power ):
+self.model = model        
+        	self.color = color
+ 	self.name = name
+self.make = make
+self.power = power
+def milage(self):
+        	return efficience
+def speed(self):
+	return fast_access
+def steering(self):
+	return autonomous
+
+porsche_911 = Car(“Porsche 911”, 3)
+Toyota_gli = Car(“Toyota_gli”,5)
+beatle = Car(“beatle”,6)
+jaguar = Car(“jaguar”,2)
+bentley = Car(“bentley”,1)
+ 
